@@ -671,6 +671,7 @@ button:focus {
 
 .resume .resume-item:last-child {
   padding-bottom: 0;
+  list-style: none;
 }
 
 .resume .resume-item::before {
