@@ -47,6 +47,7 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
+          
         </Row>
       </Container>
     </div>

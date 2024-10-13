@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -8,6 +8,10 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+
+import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
+import { Document, Page, pdfjs } from "react-pdf";
 
 function Home2() {
   return (
@@ -58,6 +62,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+        
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -67,7 +72,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/matiasdlsr"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,19 +80,10 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/matiasdlsr"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -96,15 +92,16 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
+                <Button
+                  variant="primary"
+                  href={pdf}
                   target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  style={{ maxWidth: "250px" }}
                 >
-                  <AiFillInstagram />
-                </a>
-              </li>
+                  <AiOutlineDownload />
+                  &nbsp;Download CV
+                </Button>
+              </li> 
             </ul>
           </Col>
         </Row>
