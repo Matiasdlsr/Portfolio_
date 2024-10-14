@@ -31,7 +31,7 @@ function Home() {
                 <Type />
               </div>
             </Col>
-              {/* podria hacer un componente aca y exportar git, linkedin y cv */}
+            
             
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img

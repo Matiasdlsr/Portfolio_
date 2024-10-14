@@ -8,26 +8,23 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Matias del Señor </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            <span className="purple">Desarrollador de software </span> altamente capacitado para trabajar de manera colaborativa, me adapto facilmente a los entornos cambiantes
+            soy de <span className="purple"> Buenos Aires, Argentina.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            Actualmente estoy en un proyecto como Desarrollador <span className="purple"> Full Stack </span> con C#, ReactJs, SQL Server. 
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Me encuentro cursando el 3er año de Ingenieria Informatica en UNLaM
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            
+            Aparte de la informatica, mis hobbies son:
           </p>
+          
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Natación
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Voley
             </li>
           </ul>
 
