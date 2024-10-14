@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
@@ -41,9 +41,9 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
-              
-            </Col>
-
+             </Col>
+              {/* podria hacer un componente aca y exportar git, linkedin y cv */}
+            {/*  
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
@@ -53,6 +53,46 @@ function Home() {
               />
             </Col>
             
+            <Col md={12} className="home-about-social">
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/matiasdlsr"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/matiasdlsr"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <Button
+                  variant="primary"
+                  href={pdf}
+                  target="_blank"
+                  style={{ maxWidth: "250px" }}
+                >
+                  <AiOutlineDownload />
+                  &nbsp;Download CV
+                </Button>
+              </li> 
+            </ul>
+          </Col> */}
           </Row>
           
           {/* <Col md={12} className="home-about-social">
