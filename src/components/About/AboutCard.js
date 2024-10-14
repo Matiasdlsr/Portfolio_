@@ -8,12 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            <span className="purple">Desarrollador de software </span> altamente capacitado para trabajar de manera colaborativa, me adapto facilmente a los entornos cambiantes
-            soy de <span className="purple"> Buenos Aires, Argentina.</span>
+          Me apasiona aprender cosas nuevas y mejorar tanto mis habilidades como los proyectos en los que trabajo, ya sea liderando un proyecto o profundizando en los detalles, me concentro en crear soluciones que generen un impacto real.
+              
             <br />
             Actualmente estoy en un proyecto como Desarrollador <span className="purple"> Full Stack </span> con C#, ReactJs, SQL Server. 
             <br />
-            Me encuentro cursando el 3er año de Ingenieria Informatica en UNLaM
+            Me encuentro cursando el 3er año de Ingenieria Informatica en UNLaM, San Justo, Buenos Aires.
             <br />
             
             Aparte de la informatica, mis hobbies son:
@@ -21,10 +21,13 @@ function AboutCard() {
           
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Natación
+              <ImPointRight /> Natación y voley
             </li>
             <li className="about-activity">
-              <ImPointRight /> Voley
+              <ImPointRight /> VideoJuegos
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Peliculas de marvel
             </li>
           </ul>
 

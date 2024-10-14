@@ -19,29 +19,26 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              <span className="purple"> Sobre mi</span> 
+              <span className="purple"> Objetivo Laboral</span> 
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              Estoy en busqueda de un puesto en donde pueda desarrollar mis habilidades tanto tecnicas como blandas,
+              quiero aportar valor y 
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> crecer profesionalmente  </b>en una gran empresa.
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Poseo +6 meses colaborando activamente en todo el ciclo de creación de software; analisis, diseño, desarrollo y producción.
+              
+              <br />
+              <br />
+              Mis campos de interes son &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
+                <b className="purple">desarrollo de software y gestión de proyectos
                 </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
+                </i>
+              {/* Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
@@ -52,7 +49,7 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
