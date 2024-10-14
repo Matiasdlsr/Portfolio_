@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import ruleta from "../../Assets/Projects/ruleta_.png";
+// import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import miGuardia from "../../Assets/Projects/mi_Guardia.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+// import suicide from "../../Assets/Projects/suicide.png";
+// import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -26,20 +26,20 @@ function Projects() {
               imgPath={miGuardia}
               isBlog={false}
               title="miGuardia"
-              description="Brinda información en tiempo real sobre el estado de las guardias médicas más cercanas, facilitando la búsqueda de atención según la necesidad del usuario, mejorando la accesibilidad a la información médica y contribuyendo a la eficiencia en la atención medica.."
+              description="Brinda información en tiempo real sobre el estado de las guardias médicas más cercanas, gestión de guardias e información, realizado con NodeJs, MongoDB, ReactJS"
               ghLink="https://github.com/Matiasdlsr/FundacionPescar-miGuardia"
-              demoLink="https://chatify-49.web.app/"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ruleta}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="JPMorgan-Mentores"
+              description="Proyecto web para realizar preguntas de forma lúdica a los mentores IT de JPMorgan, realizado con HTML, CSS, JavaScript."
+              ghLink="https://github.com/Matiasdlsr/JPMorgan-Mentores"
+              demoLink="https://matiasdlsr.github.io/JPMorgan-Mentores/"
             />
           </Col>
 
@@ -52,9 +52,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
-          </Col>
+          </Col> 
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -63,9 +63,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -74,8 +74,8 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
-
+          </Col> */}
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
