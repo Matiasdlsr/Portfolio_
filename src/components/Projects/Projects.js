@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import miGuardia from "../../Assets/Projects/mi_Guardia.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import ruleta from "../../Assets/Projects/ruleta.png";
 
 function Projects() {
   return (
@@ -26,24 +26,24 @@ function Projects() {
               imgPath={miGuardia}
               isBlog={false}
               title="miGuardia"
-              description="Brinda información en tiempo real sobre el estado de las guardias médicas más cercanas, facilitando la búsqueda de atención según la necesidad del usuario, mejorando la accesibilidad a la información médica y contribuyendo a la eficiencia en la atención medica.."
+              description="Brinda información en tiempo real sobre el estado de las guardias médicas más cercanas y gestión de la guardia, realizado con NodeJs, MongoDB, ReactJs."
               ghLink="https://github.com/Matiasdlsr/FundacionPescar-miGuardia"
-              demoLink="https://chatify-49.web.app/"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ruleta}
               isBlog={false}
               title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="Actividad lúdica para conocer a los mentores de JP Morgan, realizado con HTML, CSS Y JavaScript."
+              ghLink="https://github.com/Matiasdlsr/JPMorgan-Mentores"
+              demoLink="https://github.com/Matiasdlsr/JPMorgan-Mentores/deployments/github-pages"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -63,9 +63,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -74,9 +74,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
