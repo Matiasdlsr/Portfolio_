@@ -49,7 +49,7 @@ function Projects() {
               title="JP Morgan - Mentoring"
               description="Actividad lúdica para conocer a los mentores de JP Morgan, realizado con HTML, CSS Y JavaScript."
               ghLink="https://github.com/Matiasdlsr/JPMorgan-Mentores"
-              demoLink="https://github.com/Matiasdlsr/JPMorgan-Mentores/deployments/github-pages"
+              demoLink="https://matiasdlsr.github.io/JPMorgan-Mentores/"
             />
           </Col>
 
