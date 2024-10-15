@@ -340,6 +340,7 @@ button:focus {
   text-align: center !important;
   padding-top: 25px;
   color: white !important;
+  padding: 10px;
 }
 
 .home-about-social-links {
