@@ -8,12 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-          Me apasiona aprender cosas nuevas y mejorar tanto mis habilidades como los proyectos en los que trabajo, ya sea liderando un proyecto o profundizando en los detalles, me concentro en crear soluciones que generen un impacto real.
+          Me apasiona aprender cosas nuevas y mejorar tanto mis habilidades como los proyectos en los que trabajo, ya sea <span className="purple"> liderando un proyecto </span>o profundizando en los detalles, me concentro en crear soluciones que generen un impacto real.
           <br />
             <br />
-            Actualmente estoy en un proyecto como Desarrollador <span className="purple"> Full Stack </span> con C#, ReactJs, SQL Server. 
+            Actualmente estoy en un proyecto como <span className="purple"> Desarrollador Full Stack </span> con C#, ReactJs, SQL Server. 
             <br />
-            Me encuentro cursando el 3er año de Ingenieria Informatica en UNLaM, San Justo, Buenos Aires.
+            Me encuentro cursando el <span className="purple">3er año de Ingenieria Informatica </span>en UNLaM, San Justo, Buenos Aires.
             <br />
             <br />
             

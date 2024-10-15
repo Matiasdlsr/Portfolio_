@@ -36,7 +36,7 @@ function Projects() {
               imgPath={miGuardia}
               isBlog={false}
               title="miGuardia"
-              description="Brinda información en tiempo real sobre el estado de las guardias médicas más cercanas y gestión de la guardia, realizado con NodeJs, MongoDB y ReactJs."
+              description="Brinda información en tiempo real sobre el estado de las guardias médicas más cercanas y gestión de la misma, realizado con NodeJs, MongoDB y ReactJs."
               ghLink="https://github.com/Matiasdlsr/FundacionPescar-miGuardia"
               // demoLink="https://chatify-49.web.app/"
             />
