@@ -24,7 +24,7 @@ function Home2() {
             <p className="home-about-body">
             Desarrollador de software en búsqueda de un puesto en donde pueda desarrollar mis habilidadestécnicas,  
               <i>
-                <b className="purple">Aportar valor y crecer profesionalmente en una gran empresa </b>
+                <b className="purple"> aportar valor y crecer profesionalmente en una gran empresa </b>
               </i>
               <br />
               <br />
