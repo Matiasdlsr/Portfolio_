@@ -22,10 +22,9 @@ function Home2() {
               <span className="purple"> Objetivo Laboral</span> 
             </h1>
             <p className="home-about-body">
-              Estoy en busqueda de un puesto en donde pueda desarrollar mis habilidades tanto tecnicas como blandas,
-              quiero aportar valor y 
+            Desarrollador de software en búsqueda de un puesto en donde pueda desarrollar mis habilidadestécnicas,  
               <i>
-                <b className="purple"> crecer profesionalmente  </b>en una gran empresa.
+                <b className="purple">Aportar valor y crecer profesionalmente en una gran empresa </b>
               </i>
               <br />
               <br />
@@ -33,6 +32,7 @@ function Home2() {
               
               <br />
               <br />
+              Capaz de trabajar en entornos agiles con facilidad de adaptación, siempre en continuo aprendizaje.
               Mis campos de interes son &nbsp;
               <i>
                 <b className="purple">desarrollo de software y gestión de proyectos
