@@ -26,7 +26,7 @@ function Projects() {
               imgPath={funeraria}
               isBlog={false}
               title="Funeraria GR"
-              description="Software (En proceso actualmente) para gestión de funerarias, realizado con C#, SQLServer y ReacJs."
+              description="Software (En proceso actualmente) para gestión de funerarias, realizado con C#, SQLServer y ReactJs."
               // ghLink="https://github.com/soumyajit4419/Editor.io"
               // demoLink="https://editor.soumya-jit.tech/"              
             />

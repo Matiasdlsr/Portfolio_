@@ -22,7 +22,7 @@ function Home2() {
               <span className="purple"> Objetivo Laboral</span> 
             </h1>
             <p className="home-about-body">
-            Desarrollador de software en búsqueda de un puesto en donde pueda desarrollar mis habilidadestécnicas,  
+            Desarrollador de software en búsqueda de un puesto en donde pueda desarrollar mis habilidades técnicas,  
               <i>
                 <b className="purple"> aportar valor y crecer profesionalmente en una gran empresa </b>
               </i>
