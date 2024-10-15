@@ -36,7 +36,7 @@ function Projects() {
             <ProjectCard
               imgPath={ruleta}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="Ruleta"
               description="Actividad lúdica para conocer a los mentores de JP Morgan, realizado con HTML, CSS Y JavaScript."
               ghLink="https://github.com/Matiasdlsr/JPMorgan-Mentores"
               demoLink="https://github.com/Matiasdlsr/JPMorgan-Mentores/deployments/github-pages"
