@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Home3 from "./Home3";
 import Type from "./Type";
-
+import Projects from "../Projects/Projects.js";
 
 function Home() {
   return (
@@ -48,6 +48,7 @@ function Home() {
       </Container>
       <Home3 />
       <Home2 />
+      <Projects />
     </section>
   );
 }
