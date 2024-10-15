@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import funeraria from "../../Assets/Projects/funeraria.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import miGuardia from "../../Assets/Projects/mi_Guardia.png";
@@ -21,12 +21,22 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p> */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={funeraria}
+              isBlog={false}
+              title="Funeraria GR"
+              description="Software (En proceso actualmente) para gestión de funerarias, realizado con C#, SQLServer y ReacJs."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              // demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={miGuardia}
               isBlog={false}
               title="miGuardia"
-              description="Brinda información en tiempo real sobre el estado de las guardias médicas más cercanas y gestión de la guardia, realizado con NodeJs, MongoDB, ReactJs."
+              description="Brinda información en tiempo real sobre el estado de las guardias médicas más cercanas y gestión de la guardia, realizado con NodeJs, MongoDB y ReactJs."
               ghLink="https://github.com/Matiasdlsr/FundacionPescar-miGuardia"
               // demoLink="https://chatify-49.web.app/"
             />
@@ -36,7 +46,7 @@ function Projects() {
             <ProjectCard
               imgPath={ruleta}
               isBlog={false}
-              title="Ruleta"
+              title="JP Morgan - Mentoring"
               description="Actividad lúdica para conocer a los mentores de JP Morgan, realizado con HTML, CSS Y JavaScript."
               ghLink="https://github.com/Matiasdlsr/JPMorgan-Mentores"
               demoLink="https://github.com/Matiasdlsr/JPMorgan-Mentores/deployments/github-pages"
