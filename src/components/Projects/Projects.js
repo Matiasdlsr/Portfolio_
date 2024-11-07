@@ -3,21 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import funeraria from "../../Assets/Projects/funeraria.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import miGuardia from "../../Assets/Projects/mi_Guardia.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import ruleta from "../../Assets/Projects/ruleta.png";
 
-import {
-  SiCsharp,
-  SiCss3,
-  SiHtml5,
-  SiMicrosoftsqlserver,
-  SiJavascript,
-  SiC,
-  SiExpress,
-} from "react-icons/si";
+
 
 function Projects() {
   return (
@@ -37,7 +27,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Resumy"
-              description="Challenge tecnico para extraer y resumir contenido de portales de noticias, realizaco con Python, Flask, Scrapy, Redis"
+              description="Challenge tecnico para extraer y resumir contenido de portales de noticias, realizado con Python, Flask, Scrapy, Redis"
               ghLink="https://github.com/Matiasdlsr/Challenge-sirius"
               // demoLink="https://editor.soumya-jit.tech/"              
             />
