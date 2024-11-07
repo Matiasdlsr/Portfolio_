@@ -9,6 +9,16 @@ import miGuardia from "../../Assets/Projects/mi_Guardia.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import ruleta from "../../Assets/Projects/ruleta.png";
 
+import {
+  SiCsharp,
+  SiCss3,
+  SiHtml5,
+  SiMicrosoftsqlserver,
+  SiJavascript,
+  SiC,
+  SiExpress,
+} from "react-icons/si";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -21,6 +31,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p> */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Resumy"
+              description="Challenge tecnico para extraer y resumir contenido de portales de noticias, realizaco con Python, Flask, Scrapy, Redis"
+              ghLink="https://github.com/Matiasdlsr/Challenge-sirius"
+              // demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={funeraria}
@@ -50,20 +71,10 @@ function Projects() {
               description="Actividad lúdica para conocer a los mentores de JP Morgan, realizado con HTML, CSS Y JavaScript."
               ghLink="https://github.com/Matiasdlsr/JPMorgan-Mentores"
               demoLink="https://matiasdlsr.github.io/JPMorgan-Mentores/"
-            />
+            />              
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
+          {/*
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
