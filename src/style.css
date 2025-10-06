@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 4.4em !important;
+  width: 4.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -340,6 +340,7 @@ button:focus {
   text-align: center !important;
   padding-top: 25px;
   color: white !important;
+  padding: 10px;
 }
 
 .home-about-social-links {

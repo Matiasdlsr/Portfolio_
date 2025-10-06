@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import ruleta from "../../Assets/Projects/ruleta_.png";
-// import emotion from "../../Assets/Projects/emotion.png";
+import funeraria from "../../Assets/Projects/funeraria.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import miGuardia from "../../Assets/Projects/mi_Guardia.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import ruleta from "../../Assets/Projects/ruleta.png";
+
+
 
 function Projects() {
   return (
@@ -21,12 +21,33 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p> */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Resumy"
+              description="Challenge tecnico para extraer y resumir contenido de portales de noticias, realizado con Python, Flask, Scrapy, Redis"
+              ghLink="https://github.com/Matiasdlsr/Challenge-sirius"
+              // demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={funeraria}
+              isBlog={false}
+              title="Funeraria GR"
+              description="Software (En proceso actualmente) para gestión de funerarias, realizado con C#, SQLServer y ReactJs."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              // demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={miGuardia}
               isBlog={false}
               title="miGuardia"
-              description="Brinda información en tiempo real sobre el estado de las guardias médicas más cercanas, gestión de guardias e información, realizado con NodeJs, MongoDB, ReactJS"
+              description="Brinda información en tiempo real sobre el estado de las guardias médicas más cercanas y gestión de la misma, realizado con NodeJs, MongoDB y ReactJs."
               ghLink="https://github.com/Matiasdlsr/FundacionPescar-miGuardia"
               // demoLink="https://chatify-49.web.app/"
             />
@@ -36,25 +57,15 @@ function Projects() {
             <ProjectCard
               imgPath={ruleta}
               isBlog={false}
-              title="JPMorgan-Mentores"
-              description="Proyecto web para realizar preguntas de forma lúdica a los mentores IT de JPMorgan, realizado con HTML, CSS, JavaScript."
+              title="JP Morgan - Mentoring"
+              description="Actividad lúdica para conocer a los mentores de JP Morgan, realizado con HTML, CSS Y JavaScript."
               ghLink="https://github.com/Matiasdlsr/JPMorgan-Mentores"
               demoLink="https://matiasdlsr.github.io/JPMorgan-Mentores/"
-            />
+            />              
           </Col>
 
+          {/*
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col> 
-
-          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -75,8 +86,8 @@ function Projects() {
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col> */}
-{/* 
-          <Col md={4} className="project-card">
+
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
