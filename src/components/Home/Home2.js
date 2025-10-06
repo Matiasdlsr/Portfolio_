@@ -8,7 +8,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 // import pdf from "../../Assets/../Assets/delSeñorMatias_Cv.pdf";
-import pdf from "../../Assets/Projects/delSeñorMatias_Cv.pdf";
+import pdf from "../../Assets/Projects/Cv_delSeñor.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 
